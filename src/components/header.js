@@ -15,7 +15,7 @@ import Stack from '@mui/material/Stack';
 function Header() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
+        <AppBar position="static" color="secondary"> 
           <Toolbar>
             <IconButton
               size="large"
@@ -34,7 +34,7 @@ function Header() {
               <Stack direction="row" spacing={3}>
                 <Avatar alt="Geovane Reis" src="/1.jpg" />
               </Stack>
-              <IconButton color="secondary" aria-label="upload picture" component="label">
+              <IconButton color="primary" aria-label="upload picture" component="label">
               <input hidden accept="image/*" type="file" />
               <PhotoCamera />
             </IconButton>
